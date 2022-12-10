@@ -16,6 +16,7 @@
 		CEE8BE1929448CC10081EE1F /* weatherDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8BE1829448CC10081EE1F /* weatherDemoUITestsLaunchTests.swift */; };
 		CEE8BE2729449F9D0081EE1F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8BE2629449F9D0081EE1F /* LocationManager.swift */; };
 		CEE8BE2A2944A4E90081EE1F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8BE292944A4E90081EE1F /* WelcomeView.swift */; };
+		CEE8BE2E2944AE700081EE1F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8BE2D2944AE700081EE1F /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		CEE8BE1829448CC10081EE1F /* weatherDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CEE8BE2629449F9D0081EE1F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		CEE8BE292944A4E90081EE1F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		CEE8BE2D2944AE700081EE1F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE8BDFD29448CBA0081EE1F /* ContentView.swift */,
+				CEE8BE2D2944AE700081EE1F /* LoadingView.swift */,
 				CEE8BE292944A4E90081EE1F /* WelcomeView.swift */,
 			);
 			path = Views;
@@ -282,6 +285,7 @@
 				CEE8BDFE29448CBA0081EE1F /* ContentView.swift in Sources */,
 				CEE8BDFC29448CBA0081EE1F /* weatherDemoApp.swift in Sources */,
 				CEE8BE2729449F9D0081EE1F /* LocationManager.swift in Sources */,
+				CEE8BE2E2944AE700081EE1F /* LoadingView.swift in Sources */,
 				CEE8BE2A2944A4E90081EE1F /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
