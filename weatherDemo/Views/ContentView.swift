@@ -9,10 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     @StateObject var locationManager =  LocationManager()
+    var weatherManager = WeatherManager()
+    @State var weather : ResponseBody?
    
     var body: some View {
         VStack {
             if let location = locationManager.location {
+             
                 Text("Votre location est \(location.latitude) and \(location.longitude).")
             } else {
                 if locationManager.isLoading {
@@ -34,3 +37,20 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+//
+/*
+ 
+ if let weather = weather {
+     Text(" test weather Data fonctionn")
+ } else {
+     LoadingView().task {
+         do {
+             
+         } catch {
+             print("error getting weather \(error)")
+         }
+     }
+ }
+ */
+ 
